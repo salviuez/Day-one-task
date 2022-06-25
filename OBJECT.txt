@@ -1,0 +1,25 @@
+OBJECTS IN JS
+Javascript is an object oriented.
+Object properties and methods must start with letters.
+They can include numbers after the first character and may not
+contain dashes or hyphens. Property names may include spaces,
+method names may not.
+
+Example:
+
+let example1 = {
+    color: "purple",
+    smile: function() { console.log("Hi " + color); }
+};
+
+It should be declared with curly braces{},
+every key value should be seperated by commas.
+Javascript functions defined as part of an object have a scope
+isolated from the rest of the object. If a function must access
+information stored in other object properties or call other object
+functions.
+
+The dot operator (.) accesses properties and methods inside an object.
+ Since a dot has this special meaning, a property or method name
+  cannot contain a dot. Multiple dots are only valid while accessing
+   properties if they refer to objects nested inside each other.
